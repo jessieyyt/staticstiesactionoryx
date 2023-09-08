@@ -12,7 +12,7 @@ inputs:
     required: true
   azure_static_web_apps_api_token:
     description: "Required token"
-    required: true
+    required: false
   api_build_command:
     description: "Custom command for Oryx to run when building Azure Functions source code"
     required: false
